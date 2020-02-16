@@ -1,0 +1,17 @@
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.fernandoruizrico.todo"
+        versionCode = "1"
+        version     = "0.0.1" >
+        <name>ToDo!</name>
+        <description>
+            ToDo List.
+        </description>
+        <author href="https://fernandoruizrico.com" email="fernando@iessanvicente.com">
+            Fernando Ruiz Rico
+        </author>
+        <access origin="*" />
+        <plugin name="cordova-plugin-whitelist" />
+        <plugin name="cordova-plugin-vibration" />
+        <plugin name="cordova-plugin-x-socialsharing" spec="5.4.0" />
+    </widget>
